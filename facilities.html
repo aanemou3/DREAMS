@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="el" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Our facilities</title>
+    <script>
+      function show_hide() {
+        var click = document.getElementById("drop-content") ;
+        if(click.style.display==="none") {
+          click.style.display = "block" ;
+        } else{
+              click.style.display = "none" ;
+        }
+      }
+    </script>
+    <style>
+
+      .dropdown {
+        position : relative;
+        display:inline-block;
+      }
+
+      .button {
+        padding:10px 40px;
+        font-size:20px;
+      }
+      #drop-content {
+        position:absolute;
+        z-index:1 ;
+      }
+      #drop-content a{
+        display:block;
+        font-size:20px;
+        background:#dfdfdf;
+        color:black;
+        text-decoration:none;
+        padding:10px 36px;
+        margin-top:2px;
+
+      }
+    </style>
+  </head>
+  <body class= "fa" >
+    <div class="dropdown">
+      <button onclick="show_hide()" class="button">Menu</button>
+      <div style="display:none;" id="drop-content">
+    <a href="about.html">Σχετικά με εμάς</a>
+    <a href="index.html">Main menu</a>
+    <a href="videos.html">Βίντεο</a>
+    <a href="athletes.html">Oι αθλητές μας</a>
+    <a href="contact.html">Επικοινωνία</a>
+   </div>
+  </div>
+
+  <div class="fac-container">
+  <h1>FACILITIES</h1>
+
+  <div class="facilities-row-padding">
+  <div class="facilities-second">
+    <h2>Αθήνα</h2>
+    <p>Αθήνα, η πρωτεύουσα της Ελλάδας.</p>
+    <p>Στην Αθήνα επεκταθήκαμε πέρυσι.Σε οικόπεδο δύο στρεμμάτων <br> υπάρχουν τρία μεγάλα γήπεδα ποδοσφαίρου, <br>
+    δύο ειδικά διαμορφωμένα γυμναστήρια παρέχοντας και υπηρεσίες αποκατάστασεις <br> και εστίες για την φιλοξενία <br>
+    αθλητών από μακρινές περιοχές.</p>
+  </div>
+
+  <div class="facilities-second">
+    <h2>Θεσσαλονική</h2>
+    <p>Θεσσαλονική , η έδρα της επιτυχίας.</p>
+    <p>Στην Θεσσαλονική βρίσκεται η κύρια έδρα μας και ο μεγαλύτερος χώρος.<br> Οι εγκαταστάσεις μας χωρίζονται σε δύο περιοχές τις Θεσσαλονίκης<br> για να μπορέσει
+    να εξυπηρετήσει όλους τους αθλητές. <br>Αποτελείται από πέντε μεγάλα γήπεδα , εφτά πιο μικρά γήπεδα , <br> τέσσερρα γυμναστήρια παρέχοντας και υπηρεσίες αποκατάστασεις ,<br>
+    εστίες για την φιλοξενία αθλητών από μακρινές περιοχές <br> καθώς επίσης και ειδικα<br> εκπαιδευτήρια και την μόρφωση των αθλητών μας.
+   </p>
+  </div>
+  </div>
+</div>
+
+
+
+
+  </body>
+</html>
