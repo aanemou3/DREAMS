@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="el" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Informations</title>
+    <script>
+      function show_hide() {
+        var click = document.getElementById("drop-content") ;
+        if(click.style.display==="none") {
+          click.style.display = "block" ;
+        } else{
+              click.style.display = "none" ;
+        }
+      }
+    </script>
+    <style>
+
+      .dropdown {
+        position : relative;
+        display:inline-block;
+      }
+
+      .button {
+        padding:10px 40px;
+        font-size:20px;
+      }
+      #drop-content {
+        position:absolute;
+        z-index:1 ;
+      }
+      #drop-content a{
+        display:block;
+        font-size:20px;
+        background:#dfdfdf;
+        color:black;
+        text-decoration:none;
+        padding:10px 36px;
+        margin-top:2px;
+
+      }
+    </style>
+    <style>
+    h2 {
+      color:white;
+
+    }
+      p {
+        color:white;
+      }
+    </style>
+  </head>
+  <body  class="us">
+    <div class="dropdown">
+      <button onclick="show_hide()" class="button">Menu</button>
+      <div style="display:none;" id="drop-content">
+    <a href="index.html">Main menu</a>
+    <a href="facilities.html">Οι εγκαταστάσεις μας</a>
+    <a href="videos.html">Βίντεο</a>
+    <a href="athletes.html">Oι αθλητές μας</a>
+    <a href="contact.html">Επικοινωνία</a>
+   </div>
+   </div>
+
+   <h2>ABOUT US</h2>
+ <div>
+   <p><strong>Ονομάζομαι Ανέμου Απόστολος.Γεννήθηκα στην Θεσσαλονική στις 25 Σεπτεμβρίου του 1992. <br>
+   Ασχολήθηκα με το ποδόσφαιρο και γενικά με τον αθλητισμό από μικρή ηλικία και ήξερα ότι αυτό ήθελα να
+ κάνω επάγγελμα από οποιοδήποτε πόστο.<br>Είχα μια σύντομη επαγγελματική πορεία στο χώρο του
+ποδοσφαίρου και με τις γνωριμίες και την γνώση που απέκτησα σπούδασα Marketing στο University of East London.<br>
+Επιστρέφοντας στην Ελλάδα αποφάσισα να δημιουργίσω το 2016 την ApWind company και ασχολήθηκα
+αποκλειστικά με νέους <br> ερασιτλεχνες-ταλαντούχους ποδοσφαιριστές και ένα και μόνο σκοπό,μέσα απο την <br>
+δουλειά τους να μπορέσω να πραγματοποιήσω τα όνειρα τους και να γίνουν επαγγελματίες ποδοσφαιριστες.
+</strong></p>
+ </div>
+
+
+  </body>
+</html>
