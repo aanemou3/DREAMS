@@ -1,0 +1,61 @@
+.lists {
+  background-color:rgba(226, 207, 204, 0.198);
+  border-style: dashed;
+  background-size: 90%;
+  text-align: center;
+}
+
+body {
+  background-color: powderblue;
+}
+h1 {
+  background-color:rgba(226, 207, 204, 0.198);
+  padding: 50px;
+  font-family: verdana;
+  font-size: 300%;
+}
+
+.ball {
+  background-image: url("img/2.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.video {
+  background-image: url("img/1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+
+}
+.at {
+  border-style: double;
+}
+
+.us {
+  background-image: url("img/10.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+
+}
+
+.fa {
+  background-image: url("img/fa.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.facilities-second {
+  color: #33FF33;
+}
+
+.co {
+  background-image: url("img/aaaa.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+}
